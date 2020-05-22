@@ -1,0 +1,197 @@
+.jumbotron {
+	padding: 2rem 2rem;
+}
+
+.footer {
+	margin-bottom: 0;
+	padding: 1rem 0rem;
+}
+
+.summary-container {
+	margin: auto;
+	text-align: end;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.people_title {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.copyright-row {
+	display: table;
+}
+
+.copyright {
+	font-size: 16px;
+	font-style: italic;
+	display: table-cell;
+    text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.jumbo-header {
+	padding: 2rem 2rem;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.logo {
+	max-height: 100px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.profile-pic {
+	max-height: 250px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.header-1 {
+	text-transform: uppercase;
+	font-family: Oswald, sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.paragraph-big {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #4a4a4a;
+}
+
+.summary-blurb {
+	color: #4a4a4a;
+	font-size: 20px;
+	vertical-align: baseline;
+	line-height: 1.5;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 20px;
+}
+
+.back-code::after {
+	content: "";
+	background-image: url("../img/code.png");
+	opacity: 0.25;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  	background-size: 100%;
+	position: absolute;
+	z-index: -1;   
+}
+
+.back-board::after {
+	content: "";
+	background-image: url("../img/whiteboard.jpg");
+	opacity: 0.25;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  	background-size: 100%;
+	position: absolute;
+	z-index: -1;   
+}
+
+.frame {
+	padding: 0px;
+}
+
+.frame-left {
+	background-color: rgb(249, 243, 243, 0.42);
+	padding-top: 2em;
+}
+
+.frame-right {
+	background-color: rgba(229, 223, 223, 0.42);
+	padding-top: 2em;
+}
+
+.main-text {
+	text-align: justify;
+}
+
+.center {
+	text-align: center;
+}
+
+.name {
+	color: rgb(255, 90, 9);
+}
+
+.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-12 {
+	min-height: 75px;
+}
+
+.linkedin {
+	height: 40px;
+	margin-top: -20px;
+}
+
+.jumbotron {
+	float: none;
+	background-color: rgb(239, 233, 233);
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.chocolate {
+	background-color: chocolate;
+	color: white;
+}
+
+.col-xl-12.col-lg-12.col-md-12.col-sm-4.col-12 {
+	min-height: 75px;
+}
+
+.heading {
+	font-size: 24px;
+}
+
+.paragraph {
+	float: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.header-1 {
+		font-size: 32px;
+		letter-spacing: 4px;
+	}
+
+	.paragraph-big {
+		font-size: 20px;
+	}
+
+	.summary-blurb {
+		font-size: 16px;
+	}
+
+	.summary-container {
+		margin: auto;
+		text-align: center;
+	}
+}
